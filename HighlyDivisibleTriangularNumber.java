@@ -12,7 +12,8 @@ public class HighlyDivisibleTriangularNumber {
         }
       }
       if(count*2 >= 500) {
-        System.out.println(tri + ": " + count*2);
+        System.out.println(tri);
+        break;
       }
     }
   }
